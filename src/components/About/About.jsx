@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Envstack from "./Envstack";
 
 function About() {
   console.log('about')
@@ -35,6 +36,12 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+        <h1 className="project-heading">
+          <strong className="purple">DBMS</strong> I have experience in
+        </h1>
+
+        <Envstack />
+        
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
