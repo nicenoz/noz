@@ -9,7 +9,6 @@ import Toolstack from "./Toolstack";
 import Envstack from "./Envstack";
 
 function About() {
-  console.log('about')
   return (
     <Container fluid className="about-section">
       <Particle />

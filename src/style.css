@@ -7,9 +7,9 @@ html {
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
-  );
+    rgba(17, 16, 16, 0),
+    rgba(255, 255, 255, 0.5)
+);
 
   --imp-text-color: #c770f0;
 }
@@ -259,14 +259,14 @@ button:focus {
   z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  color: whitesmoke;
+  color: rgba(0, 128, 128, 1);
   text-align: left;
 }
 
@@ -281,12 +281,12 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: rgba(128, 0, 128, 1);
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: rgba(0, 128, 128, 1) !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
@@ -402,6 +402,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
+  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-color: rgb(10, 4, 22);
   bottom: 0 !important;
   padding-top: 10px !important;
