@@ -11,7 +11,7 @@ html {
     rgba(255, 255, 255, 0.5)
 );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: rgba(0, 128, 128, 1);
 }
 
 .purple {
@@ -442,7 +442,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: rgba(0, 128, 128, 1) !important;
 }
 /* --------- */
 /* Projects */
@@ -535,7 +535,7 @@ button:focus {
   box-shadow: none !important;
 }
 .project-heading {
-  color: white !important;
+  color: #6d20c5d7 !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
@@ -551,7 +551,7 @@ button:focus {
   padding-bottom: 30px !important;
   /* background-image: var(--section-background-color) !important; */
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
-  color: rgba(0, 128, 128, 1) !important;
+  color: rgba(0, 128, 128, 0.5) !important;
 }
 
 .tech-icons {
@@ -559,7 +559,7 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid rgba(0, 128, 128, 1) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
@@ -578,7 +578,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid rgba(0, 128, 128, 1) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -587,7 +587,7 @@ button:focus {
 
 .quote-card-view {
   border: none !important;
-  color: white !important;
+  color: rgba(128, 0, 128, 1) !important;
   background-color: transparent !important;
 }
 
@@ -610,7 +610,8 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* background-image: var(--section-background-color) !important; */
+  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   color: white !important;
 }
 
