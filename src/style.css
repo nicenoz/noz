@@ -361,7 +361,7 @@ button:focus {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: #c6b4ea !important;
+  background: #F5F5F5 !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
@@ -407,7 +407,7 @@ button:focus {
 .footer {
   /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-color: rgb(10, 4, 22); */
-  background-color: #F5F5F5 ;
+  background-color: #F5F5F5;
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;

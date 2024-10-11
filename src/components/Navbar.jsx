@@ -64,8 +64,6 @@ function NavBar() {
                 as={Link}
                 to="/about"
                 onClick={() => {
-                  
-                  console.log('hello');
                   updateExpanded(false)
                 }}
               >
@@ -78,7 +76,6 @@ function NavBar() {
                 as={Link}
                 to="/project"
                 onClick={() => {
-                  console.log('hello');
                   updateExpanded(false);
                 }}
               >
