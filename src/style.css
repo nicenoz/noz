@@ -11,7 +11,7 @@ html {
     rgba(255, 255, 255, 0.5)
 );
 
-  --imp-text-color: rgba(0, 128, 128, 1);
+  --imp-text-color: rgba(222, 130, 235, 0.911)
 }
 
 .purple {
@@ -590,7 +590,7 @@ button:focus {
 
 .quote-card-view {
   border: none !important;
-  color: rgba(128, 0, 128, 1) !important;
+  color: rgba(0, 128, 128, 1) !important;
   background-color: transparent !important;
 }
 
