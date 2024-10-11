@@ -76,7 +76,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #fae4e4 !important;
+  background-color: #F5F5F5 !important;
   transition: all 0.3s ease-out 0.3s !important;
   box-shadow: 0px 10px 10px 0px rgba(29, 5, 5, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -407,7 +407,7 @@ button:focus {
 .footer {
   /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-color: rgb(10, 4, 22); */
-  background-color: #fae4e4 ;
+  background-color: #F5F5F5 ;
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
