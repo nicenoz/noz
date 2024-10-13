@@ -9,6 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
+  const INVEN_URL = "https://docs.google.com/document/d/1qQSYiYtCpN3cJggWgcsJr5wBiOKvMyJT/edit?usp=drive_link&ouid=107427155745329197889&rtpof=true&sd=true";
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
@@ -42,12 +43,12 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={INVEN_URL}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;My Inventory
           </Button>
         </Row>
       </Container>
