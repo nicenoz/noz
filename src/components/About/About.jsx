@@ -8,6 +8,7 @@ import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import Envstack from "./Envstack";
 import Time from "../Com/Time";
+import "./about.css";
 
 function About() {
   return (

@@ -13,6 +13,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import "./navbar.css";
 
 import { CgFileDocument } from "react-icons/cg";
 
